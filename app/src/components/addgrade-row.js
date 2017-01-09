@@ -7,7 +7,7 @@ class AddGradeRow extends Component {
   	// console.log(this.props);
     return (
     <td>
-		<select key={"numcol" + this.props.numcol} id="subject" name="subject">
+		<select key={"numcol" + this.props.numcol} id="subject" name="subject" onChange='sua_funcao'>
 			<option defaultValue> -- </option>
 				<option value="mat">Matemática</option>
 				<option value="por">Português</option>
