@@ -1,0 +1,10 @@
+
+table {
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+
+.mainbox{
+  width:60%;
+  margin: 50px auto;
+}
